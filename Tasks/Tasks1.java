@@ -1,3 +1,5 @@
+package Tasks;
+
 public class Tasks1 {
     public static int remainder(int a, int b){                                                                          // 1.1 Функция нахождения остатка от делания для первого Таска
         return a % b;
