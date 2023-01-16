@@ -35,7 +35,6 @@ public class Tasks2{
         for (int i = 0; i < mass.length; i++){
             summary += mass[i];
             resMass[i] = summary;
-            System.out.println(resMass[i]);
         }
         return resMass;
     }
@@ -127,20 +126,20 @@ public class Tasks2{
     }
 
     public static void main(String args[]){
-        System.out.println(repeat("mice", 5));
+        System.out.println("1. " + repeat("mice", 5));
         int mass[] = {10, 4, 1, 4, -10, -50, 32, 21};
-        System.out.println(differenceMaxMin(mass));
+        System.out.println("2. " + differenceMaxMin(mass));
         double mass2[] = {1, 2, 3, 7};
-        System.out.println(isAvgWhole(mass2));
+        System.out.println("3. " + isAvgWhole(mass2));
         int mass3[] = {1, 2, 3};
         int resMass[] = cumulativeSum(mass3);
-        System.out.println(Arrays.toString(resMass));
-        System.out.println(getDecimalPlaces("3.1"));
-        System.out.println(Fibonacci(12));
-        System.out.println(isValid("1122b"));
-        System.out.println(isStrangePair("sparkling", "groups"));
-        System.out.println(isPrefix("automation", "auto-"));
-        System.out.println(isSuffix("automation", "-tion"));
-        System.out.println(boxSeq(9));
+        System.out.println("4. " + Arrays.toString(resMass));
+        System.out.println("5. " + getDecimalPlaces("3.1"));
+        System.out.println("6. " + Fibonacci(12));
+        System.out.println("7. " + isValid("1122b"));
+        System.out.println("8. " + isStrangePair("sparkling", "groups"));
+        System.out.println("9.1 " + isPrefix("automation", "auto-"));
+        System.out.println("9.2 " + isSuffix("automation", "-tion"));
+        System.out.println("10. " + boxSeq(9));
     }
 }
